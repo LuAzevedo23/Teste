@@ -1,0 +1,9 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+dependencies {
+    implementation project (':lib')
+}
+description = 'app'
